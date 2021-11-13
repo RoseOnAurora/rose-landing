@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import { FaTwitter, FaMedium, FaTelegram } from 'react-icons/fa'
+import { FaTwitter, FaTelegram, FaGithub } from 'react-icons/fa'
+import { SiMedium } from 'react-icons/si'
 
 const Home: NextPage = () => {
   return (
@@ -19,12 +20,21 @@ const Home: NextPage = () => {
                 Rose
               </p>
               <p className="subtitle has-text-white">
-                We are BUIDLing, stay tuned! 🌹
+                The liquidity layer for Aurora. 🌹
               </p>
+              <p>
+                <a href="https://app.rose.fi">
+                  <button className="button">
+                    Launch App
+                  </button>
+                </a>
+              </p>
+              <br/>
               <p className="subtitle has-text-white">
                 <a href="https://twitter.com/roseonaurora" className="mr-3"><FaTwitter/></a>
-                <a href="https://medium.com/@roseonaurora" className="mr-3"><FaMedium/></a>
-                <a href="https://t.me/RoseOnAurora"><FaTelegram/></a>
+                <a href="https://medium.com/@roseonaurora" className="mr-3"><SiMedium/></a>
+                <a href="https://t.me/RoseOnAurora" className="mr-3"><FaTelegram/></a>
+                <a href="https://github.com/RoseOnAurora"><FaGithub/></a>
               </p>
             </div>
           </div>
