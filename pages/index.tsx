@@ -29,8 +29,7 @@ const Home: NextPage = () => {
                   </button>
                 </a>
               </p>
-              <br/>
-              <p className="subtitle has-text-white">
+              <p className="subtitle has-text-white mt-5">
                 <a href="https://twitter.com/roseonaurora" className="mr-3"><FaTwitter/></a>
                 <a href="https://medium.com/@roseonaurora" className="mr-3"><SiMedium/></a>
                 <a href="https://t.me/RoseOnAurora" className="mr-3"><FaTelegram/></a>
