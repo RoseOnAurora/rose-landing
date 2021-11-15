@@ -15,7 +15,7 @@ body {
 }
 
 .hero {
-  background:linear-gradient(to right, #141414, #200122, #630924)
+  background: linear-gradient(to right, #141414, #200122, #791038)
 }
 
 .title {
@@ -26,4 +26,17 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.button {
+  font-family: Neue Machina, sans-serif;
+  background-color: rgb(204, 58, 89);
+  font-weight: 700;
+  color: white;
+  border: none;
+  transition: all 250ms ease 0s;
+}
+
+.button:hover, .button:active {
+  color: black;
 }
