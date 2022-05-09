@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import { FaTwitter, FaTelegram, FaGithub, FaDiscord } from 'react-icons/fa'
+import { FaTwitter, FaTelegram, FaGithub, FaDiscord, FaBook } from 'react-icons/fa'
 import { SiMedium } from 'react-icons/si'
 
 const Home: NextPage = () => {
@@ -34,7 +34,8 @@ const Home: NextPage = () => {
                 <a href="https://medium.com/@roseonaurora" className="mr-3"><SiMedium/></a>
                 <a href="https://t.me/RoseOnAurora" className="mr-3"><FaTelegram/></a>
                 <a href="https://github.com/RoseOnAurora" className="mr-3"><FaGithub/></a>
-                <a href="https://discord.gg/dG6mWH4rHj"><FaDiscord/></a>
+                <a href="https://discord.gg/dG6mWH4rHj" className="mr-3"><FaDiscord/></a>
+                <a href="https://docs.rose.fi"><FaBook/></a>
               </p>
             </div>
           </div>
